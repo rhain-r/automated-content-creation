@@ -52,7 +52,7 @@ Triggers on approval, fetches the final document, formats and publishes the blog
 
 | Component | Technology |
 | --- | --- |
-| **Automation Platform** | Workflow Automation Engine (e.g., Make/n8n) / Webhooks |
+| **Automation Platform** | n8n|
 | **LLM API** | OpenAI |
 | **Database / State** | Google Sheets & Google Docs |
 | **Integrations** | WhatsApp/Slack, Gmail, Squarespace/CMS APIs |
