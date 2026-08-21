@@ -1,4 +1,4 @@
-# Automated Content Generation & Publishing
+# Automated Content Generation
 
 An automated pipeline that operates as a digital content team. This system utilizes scheduled workflows to generate blog topics, draft content, route drafts for human-in-the-loop (HITL) approval via WhatsApp or Slack, execute revisions, and automatically publish to the web.
 
