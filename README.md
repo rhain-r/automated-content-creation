@@ -4,9 +4,13 @@ An automated pipeline that operates as a digital content team. This system utili
 
 Instead of manually researching topics and writing posts, this system connects your intake databases, document editors, and website publishing APIs, executing your brand's content Standard Operating Procedures (SOPs) automatically.
 
+---
+
 ## Automated Workflow Execution
 
 The pipeline operates across multiple specialized, interconnected workflows. Upon execution, the automation checks existing content to avoid duplicates, passes context to LLMs for targeted drafting, runs structured compliance checks, and executes API calls to publish the content after human approval.
+
+---
 
 ## Project Overview
 
@@ -17,6 +21,8 @@ Each execution follows a structured, traceable process:
 *   **Process (LLM):** Using strict system prompts and compliance schemas, the automation evaluates the generated draft, extracts required information, and checks against brand guidelines.
 *   **Validate (HITL):** Before publishing, the workflow pauses and routes the draft to a manager via WhatsApp or Slack for approval, ensuring zero unapproved external communications.
 *   **Execute (Publish):** Upon receiving human approval, the automation converts the markup to HTML and schedules the post via the website API.
+
+---
 
 ## Automation Capabilities
 
@@ -48,6 +54,8 @@ Takes feedback from the approval stage, generates a revised draft using a specia
 Triggers on approval, fetches the final document, formats and publishes the blog to the website, and emails a final confirmation to the stakeholders.
 ![Blog Publishing](assets/blog-publishing.prt5.png)
 
+---
+
 ## Tech Stack
 
 | Component | Technology |
@@ -56,6 +64,8 @@ Triggers on approval, fetches the final document, formats and publishes the blog
 | **LLM API** | OpenAI |
 | **Database / State** | Google Sheets & Google Docs |
 | **Integrations** | WhatsApp/Slack, Gmail, Squarespace/CMS APIs |
+
+---
 
 ## Repository Structure
 
