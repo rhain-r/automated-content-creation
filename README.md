@@ -43,8 +43,8 @@ Reads intake sheets, extracts information, generates a draft, and runs a strict 
 ![Blog Generation Pipeline](assets/blog-generation-pipeline.prt2.png)
 
 ### 3. Blog Approval and Revision (HITL)
-Aggregates drafts under review, sends bulk reminders, and triggers WhatsApp/Slack messages for manager approval. Dynamically routes to the Publish or Revision workflow based on human response.
-![Blog Approval and Revision](assets/blog-approval-and-revision(whatsapp%20or%20slack).prt3.png)
+Aggregates drafts under review, sends bulk reminders, and triggers WhatsApp/Slack/Telegram/etc. messages for manager approval. Dynamically routes to the Publish or Revision workflow based on human response.
+![Blog Approval and Revision](assets/blog-approval-and-revision.prt3.png)
 
 ### 4. Blog Revision Workflow
 Takes feedback from the approval stage, generates a revised draft using a specialized revision prompt, re-runs compliance checks, and updates the existing document.
